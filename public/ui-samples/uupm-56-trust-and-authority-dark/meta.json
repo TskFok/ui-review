@@ -1,0 +1,21 @@
+{
+  "id": "uupm-56-trust-and-authority-dark",
+  "name": "信任权威（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Trust & Authority 深色样式示例。",
+  "style": [
+    "Trust & Authority",
+    "landing",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "landing-page",
+  "density": "spacious",
+  "recommendedFor": [
+    "B2B",
+    "enterprise",
+    "consulting"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

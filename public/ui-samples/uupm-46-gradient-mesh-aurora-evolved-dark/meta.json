@@ -1,0 +1,21 @@
+{
+  "id": "uupm-46-gradient-mesh-aurora-evolved-dark",
+  "name": "渐变网格极光（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Gradient Mesh / Aurora Evolved 深色样式示例。",
+  "style": [
+    "Gradient Mesh / Aurora Evolved",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Hero sections",
+    "backgrounds",
+    "creative"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

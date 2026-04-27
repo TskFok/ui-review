@@ -1,0 +1,20 @@
+{
+  "id": "uupm-64-predictive-analytics-light",
+  "name": "预测分析（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Predictive Analytics 浅色样式示例。",
+  "style": [
+    "Predictive Analytics",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Forecasting",
+    "ML insights"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

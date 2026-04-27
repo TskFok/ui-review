@@ -1,0 +1,20 @@
+{
+  "id": "uupm-66-financial-dashboard-light",
+  "name": "金融看板（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Financial Dashboard 浅色样式示例。",
+  "style": [
+    "Financial Dashboard",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Finance",
+    "accounting"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

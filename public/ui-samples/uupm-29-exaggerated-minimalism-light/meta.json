@@ -1,0 +1,21 @@
+{
+  "id": "uupm-29-exaggerated-minimalism-light",
+  "name": "夸张极简（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Exaggerated Minimalism 浅色样式示例。",
+  "style": [
+    "Exaggerated Minimalism",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Fashion",
+    "architecture",
+    "portfolios"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

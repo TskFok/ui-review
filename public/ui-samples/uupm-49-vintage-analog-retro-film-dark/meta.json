@@ -1,0 +1,20 @@
+{
+  "id": "uupm-49-vintage-analog-retro-film-dark",
+  "name": "复古胶片（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Vintage Analog / Retro Film 深色样式示例。",
+  "style": [
+    "Vintage Analog / Retro Film",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Photography",
+    "music/vinyl brands"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

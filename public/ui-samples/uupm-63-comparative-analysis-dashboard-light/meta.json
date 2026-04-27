@@ -1,0 +1,19 @@
+{
+  "id": "uupm-63-comparative-analysis-dashboard-light",
+  "name": "对比分析看板（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Comparative Analysis Dashboard 浅色样式示例。",
+  "style": [
+    "Comparative Analysis Dashboard",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Side-by-side comparisons"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

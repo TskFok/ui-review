@@ -1,0 +1,21 @@
+{
+  "id": "uupm-13-skeuomorphism-dark",
+  "name": "拟物化（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Skeuomorphism 深色样式示例。",
+  "style": [
+    "Skeuomorphism",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Legacy apps",
+    "gaming",
+    "premium products"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

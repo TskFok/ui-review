@@ -1,0 +1,20 @@
+{
+  "id": "uupm-16-micro-interactions-dark",
+  "name": "微交互（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Micro-interactions 深色样式示例。",
+  "style": [
+    "Micro-interactions",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Mobile apps",
+    "touchscreen UIs"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

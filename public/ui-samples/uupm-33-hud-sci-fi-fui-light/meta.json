@@ -1,0 +1,21 @@
+{
+  "id": "uupm-33-hud-sci-fi-fui-light",
+  "name": "科幻 HUD（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 HUD / Sci-Fi FUI 浅色样式示例。",
+  "style": [
+    "HUD / Sci-Fi FUI",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Sci-fi games",
+    "space tech",
+    "cybersecurity"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

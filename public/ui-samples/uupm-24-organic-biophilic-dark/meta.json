@@ -1,0 +1,20 @@
+{
+  "id": "uupm-24-organic-biophilic-dark",
+  "name": "亲自然有机（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Organic Biophilic 深色样式示例。",
+  "style": [
+    "Organic Biophilic",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Wellness apps",
+    "sustainability brands"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

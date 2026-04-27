@@ -1,0 +1,20 @@
+{
+  "id": "uupm-38-gen-z-chaos-maximalism-dark",
+  "name": "Z 世代极繁（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Gen Z Chaos / Maximalism 深色样式示例。",
+  "style": [
+    "Gen Z Chaos / Maximalism",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Gen Z lifestyle",
+    "music artists"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

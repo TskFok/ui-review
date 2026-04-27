@@ -1,0 +1,21 @@
+{
+  "id": "uupm-27-vaporwave-light",
+  "name": "蒸汽波（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Vaporwave 浅色样式示例。",
+  "style": [
+    "Vaporwave",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Music platforms",
+    "gaming",
+    "portfolios"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

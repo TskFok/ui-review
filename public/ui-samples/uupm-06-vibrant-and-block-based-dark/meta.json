@@ -1,0 +1,21 @@
+{
+  "id": "uupm-06-vibrant-and-block-based-dark",
+  "name": "高饱和块面（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Vibrant & Block-based 深色样式示例。",
+  "style": [
+    "Vibrant & Block-based",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Startups",
+    "creative agencies",
+    "gaming"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

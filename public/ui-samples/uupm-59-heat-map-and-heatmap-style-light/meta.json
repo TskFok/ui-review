@@ -1,0 +1,19 @@
+{
+  "id": "uupm-59-heat-map-and-heatmap-style-light",
+  "name": "热力图看板（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Heat Map & Heatmap Style 浅色样式示例。",
+  "style": [
+    "Heat Map & Heatmap Style",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Geographic/behavior data"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

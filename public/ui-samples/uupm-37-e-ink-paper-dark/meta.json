@@ -1,0 +1,20 @@
+{
+  "id": "uupm-37-e-ink-paper-dark",
+  "name": "电子墨水纸张（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 E-Ink / Paper 深色样式示例。",
+  "style": [
+    "E-Ink / Paper",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Reading apps",
+    "digital newspapers"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

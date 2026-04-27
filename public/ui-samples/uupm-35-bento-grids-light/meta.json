@@ -1,0 +1,21 @@
+{
+  "id": "uupm-35-bento-grids-light",
+  "name": "便当网格（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Bento Grids 浅色样式示例。",
+  "style": [
+    "Bento Grids",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Product features",
+    "dashboards",
+    "personal"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

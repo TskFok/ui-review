@@ -1,0 +1,21 @@
+{
+  "id": "uupm-13-skeuomorphism-light",
+  "name": "拟物化（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Skeuomorphism 浅色样式示例。",
+  "style": [
+    "Skeuomorphism",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Legacy apps",
+    "gaming",
+    "premium products"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

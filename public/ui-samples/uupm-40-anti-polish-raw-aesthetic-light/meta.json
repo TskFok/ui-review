@@ -1,0 +1,20 @@
+{
+  "id": "uupm-40-anti-polish-raw-aesthetic-light",
+  "name": "反精致原生美学（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Anti-Polish / Raw Aesthetic 浅色样式示例。",
+  "style": [
+    "Anti-Polish / Raw Aesthetic",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Creative portfolios",
+    "artist sites"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

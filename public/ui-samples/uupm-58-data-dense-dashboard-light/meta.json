@@ -1,0 +1,19 @@
+{
+  "id": "uupm-58-data-dense-dashboard-light",
+  "name": "高密度数据看板（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Data-Dense Dashboard 浅色样式示例。",
+  "style": [
+    "Data-Dense Dashboard",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Complex data analysis"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

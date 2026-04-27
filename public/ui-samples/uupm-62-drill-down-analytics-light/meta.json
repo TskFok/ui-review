@@ -1,0 +1,19 @@
+{
+  "id": "uupm-62-drill-down-analytics-light",
+  "name": "下钻分析（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Drill-Down Analytics 浅色样式示例。",
+  "style": [
+    "Drill-Down Analytics",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Detailed exploration"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

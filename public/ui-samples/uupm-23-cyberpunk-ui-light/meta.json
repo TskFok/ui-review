@@ -1,0 +1,21 @@
+{
+  "id": "uupm-23-cyberpunk-ui-light",
+  "name": "赛博朋克（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Cyberpunk UI 浅色样式示例。",
+  "style": [
+    "Cyberpunk UI",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Gaming",
+    "tech products",
+    "crypto apps"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

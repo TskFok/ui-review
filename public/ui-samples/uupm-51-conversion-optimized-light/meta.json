@@ -1,0 +1,20 @@
+{
+  "id": "uupm-51-conversion-optimized-light",
+  "name": "转化优化（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Conversion-Optimized 浅色样式示例。",
+  "style": [
+    "Conversion-Optimized",
+    "landing",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "landing-page",
+  "density": "spacious",
+  "recommendedFor": [
+    "Lead generation",
+    "sales pages"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

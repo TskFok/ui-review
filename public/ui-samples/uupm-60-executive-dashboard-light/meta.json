@@ -1,0 +1,19 @@
+{
+  "id": "uupm-60-executive-dashboard-light",
+  "name": "高管看板（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Executive Dashboard 浅色样式示例。",
+  "style": [
+    "Executive Dashboard",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "C-suite summaries"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

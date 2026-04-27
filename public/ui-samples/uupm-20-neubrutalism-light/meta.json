@@ -1,0 +1,21 @@
+{
+  "id": "uupm-20-neubrutalism-light",
+  "name": "新粗野主义（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Neubrutalism 浅色样式示例。",
+  "style": [
+    "Neubrutalism",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Gen Z brands",
+    "startups",
+    "Figma-style"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

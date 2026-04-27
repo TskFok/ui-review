@@ -1,0 +1,20 @@
+{
+  "id": "uupm-53-minimal-and-direct-dark",
+  "name": "极简直达（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Minimal & Direct 深色样式示例。",
+  "style": [
+    "Minimal & Direct",
+    "landing",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "landing-page",
+  "density": "spacious",
+  "recommendedFor": [
+    "Simple products",
+    "apps"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

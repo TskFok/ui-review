@@ -1,0 +1,21 @@
+{
+  "id": "uupm-01-minimalism-and-swiss-style-dark",
+  "name": "极简瑞士风（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Minimalism & Swiss Style 深色样式示例。",
+  "style": [
+    "Minimalism & Swiss Style",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Enterprise apps",
+    "dashboards",
+    "documentation"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

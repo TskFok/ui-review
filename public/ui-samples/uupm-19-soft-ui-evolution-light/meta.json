@@ -1,0 +1,20 @@
+{
+  "id": "uupm-19-soft-ui-evolution-light",
+  "name": "柔和 UI 演进（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Soft UI Evolution 浅色样式示例。",
+  "style": [
+    "Soft UI Evolution",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Modern enterprise apps",
+    "SaaS"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "uupm-67-sales-intelligence-dashboard-dark",
+  "name": "销售智能看板（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Sales Intelligence Dashboard 深色样式示例。",
+  "style": [
+    "Sales Intelligence Dashboard",
+    "dashboard",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Sales teams",
+    "CRM"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

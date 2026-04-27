@@ -1,0 +1,21 @@
+{
+  "id": "uupm-09-claymorphism-dark",
+  "name": "黏土拟态（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Claymorphism 深色样式示例。",
+  "style": [
+    "Claymorphism",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Educational apps",
+    "children's apps",
+    "SaaS"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

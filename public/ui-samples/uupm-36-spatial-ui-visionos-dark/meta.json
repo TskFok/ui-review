@@ -1,0 +1,20 @@
+{
+  "id": "uupm-36-spatial-ui-visionos-dark",
+  "name": "空间界面（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Spatial UI (VisionOS) 深色样式示例。",
+  "style": [
+    "Spatial UI (VisionOS)",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Spatial computing apps",
+    "VR/AR"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

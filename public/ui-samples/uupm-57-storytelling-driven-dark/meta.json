@@ -1,0 +1,21 @@
+{
+  "id": "uupm-57-storytelling-driven-dark",
+  "name": "故事驱动（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Storytelling-Driven 深色样式示例。",
+  "style": [
+    "Storytelling-Driven",
+    "landing",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "landing-page",
+  "density": "spacious",
+  "recommendedFor": [
+    "Brands",
+    "agencies",
+    "nonprofits"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

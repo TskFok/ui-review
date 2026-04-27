@@ -1,0 +1,21 @@
+{
+  "id": "uupm-28-dimensional-layering-dark",
+  "name": "维度分层（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Dimensional Layering 深色样式示例。",
+  "style": [
+    "Dimensional Layering",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Dashboards",
+    "card layouts",
+    "modals"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

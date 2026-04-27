@@ -1,0 +1,21 @@
+{
+  "id": "uupm-21-bento-box-grid-dark",
+  "name": "便当盒网格（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Bento Box Grid 深色样式示例。",
+  "style": [
+    "Bento Box Grid",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Dashboards",
+    "product pages",
+    "portfolios"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

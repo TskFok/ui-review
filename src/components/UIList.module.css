@@ -1,0 +1,354 @@
+.sidebar {
+  position: relative;
+  width: 360px;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background:
+    radial-gradient(circle at 22px 22px, color-mix(in srgb, var(--memphis-yellow) 76%, transparent) 0 7px, transparent 8px),
+    var(--shell-sidebar-bg, linear-gradient(135deg, var(--memphis-teal), var(--memphis-paper) 48%, var(--memphis-pink)));
+  background-size: 48px 48px, auto;
+  color: var(--memphis-ink);
+  border-right: var(--memphis-border);
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+}
+
+.sidebar::before {
+  content: "";
+  position: fixed;
+  top: 108px;
+  left: 292px;
+  width: 72px;
+  height: 72px;
+  background: var(--memphis-yellow);
+  border: var(--memphis-border);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  transform: rotate(16deg);
+  z-index: 3;
+  pointer-events: none;
+}
+
+.sidebar::after {
+  content: "";
+  position: fixed;
+  left: 26px;
+  bottom: 26px;
+  width: 108px;
+  height: 22px;
+  border-top: 5px solid var(--memphis-ink);
+  border-bottom: 5px solid var(--memphis-ink);
+  transform: rotate(-12deg);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: 16px 16px 10px;
+  padding: 18px 18px 16px;
+  background: var(--memphis-pink);
+  border: var(--memphis-border);
+  border-radius: var(--memphis-radius);
+  box-shadow: var(--memphis-shadow);
+  transform: rotate(-1deg);
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.subtitle {
+  display: inline-flex;
+  margin: 10px 0 0;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--memphis-ink);
+  background: var(--memphis-yellow);
+  border: 2px solid var(--memphis-ink);
+  border-radius: 999px;
+}
+
+.filters {
+  position: relative;
+  z-index: 1;
+  margin: 8px 16px 12px;
+  padding: 14px;
+  border: var(--memphis-border);
+  border-radius: var(--memphis-radius);
+  background:
+    repeating-linear-gradient(-45deg, color-mix(in srgb, var(--memphis-ink) 8%, transparent) 0 8px, transparent 8px 18px),
+    color-mix(in srgb, var(--memphis-paper) 82%, white);
+  box-shadow: var(--memphis-shadow-sm);
+  display: grid;
+  gap: 14px;
+}
+
+.filterGroup {
+  display: grid;
+  gap: 8px;
+}
+
+.filterTitle {
+  width: fit-content;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 900;
+  color: var(--memphis-on-pop);
+  background: var(--memphis-yellow);
+  border: 2px solid var(--memphis-ink);
+  border-radius: 2px;
+  transform: rotate(-1deg);
+}
+
+.checkboxList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.checkboxItem {
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--memphis-ink);
+  background: var(--memphis-paper);
+  border: 2px solid var(--memphis-ink);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: transform 180ms ease-out, background 180ms ease-out, box-shadow 180ms ease-out;
+}
+
+.checkboxItem:nth-child(3n + 1) {
+  background: color-mix(in srgb, var(--memphis-paper) 86%, white);
+}
+
+.checkboxItem:nth-child(3n + 2) {
+  background: var(--memphis-teal);
+}
+
+.checkboxItem:nth-child(3n + 3) {
+  background: var(--memphis-yellow);
+}
+
+.checkboxItem:hover {
+  transform: translate(-2px, -2px) rotate(-1deg);
+  box-shadow: 4px 4px 0 var(--memphis-ink);
+}
+
+.checkboxItem:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.checkboxItem:has(input:checked) {
+  background: var(--memphis-mint);
+  box-shadow: 4px 4px 0 var(--memphis-ink);
+}
+
+.checkboxItem input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--memphis-blue);
+}
+
+.keywordInput {
+  min-height: 44px;
+  border: 2px solid var(--memphis-ink);
+  background: color-mix(in srgb, var(--memphis-paper) 88%, white);
+  color: var(--memphis-ink);
+  border-radius: var(--memphis-radius);
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 4px 4px 0 var(--memphis-ink);
+  transition: transform 180ms ease-out, box-shadow 180ms ease-out, background 180ms ease-out;
+}
+
+.keywordInput::placeholder {
+  color: color-mix(in srgb, var(--memphis-ink) 62%, transparent);
+}
+
+.keywordInput:focus {
+  background: color-mix(in srgb, var(--memphis-yellow) 72%, white);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--memphis-blue);
+}
+
+.list {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: 14px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  display: block;
+  width: 100%;
+  min-height: 112px;
+  text-align: left;
+  background: color-mix(in srgb, var(--memphis-paper) 88%, white);
+  border: var(--memphis-border);
+  border-radius: var(--memphis-radius);
+  padding: 14px;
+  color: var(--memphis-card-text);
+  cursor: pointer;
+  box-shadow: var(--memphis-shadow-sm);
+  transition: transform 180ms ease-out, box-shadow 180ms ease-out, background 180ms ease-out;
+}
+
+.list li:nth-child(4n + 1) .card {
+  background: color-mix(in srgb, var(--memphis-paper) 88%, white);
+}
+
+.list li:nth-child(4n + 2) .card {
+  background: color-mix(in srgb, var(--memphis-teal) 46%, white);
+  transform: rotate(0.6deg);
+}
+
+.list li:nth-child(4n + 3) .card {
+  background: color-mix(in srgb, var(--memphis-yellow) 62%, white);
+  transform: rotate(-0.5deg);
+}
+
+.list li:nth-child(4n + 4) .card {
+  background: color-mix(in srgb, var(--memphis-pink) 34%, white);
+}
+
+.card:hover {
+  transform: translate(-3px, -3px) rotate(-1deg);
+  box-shadow: 9px 9px 0 var(--memphis-ink);
+}
+
+.card:active {
+  transform: translate(1px, 1px);
+  box-shadow: 3px 3px 0 var(--memphis-ink);
+}
+
+.card:focus-visible {
+  outline: 3px solid var(--memphis-blue);
+  outline-offset: 4px;
+}
+
+.active {
+  background:
+    radial-gradient(circle at 16px 16px, color-mix(in srgb, var(--memphis-ink) 16%, transparent) 0 3px, transparent 4px),
+    var(--memphis-yellow) !important;
+  background-size: 24px 24px, auto;
+  color: var(--memphis-on-pop);
+  box-shadow: 10px 10px 0 var(--memphis-blue);
+}
+
+.active:hover {
+  box-shadow: 11px 11px 0 var(--memphis-blue);
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+
+.cardDesc {
+  font-size: 13px;
+  color: color-mix(in srgb, var(--memphis-card-text) 76%, transparent);
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.active .cardDesc {
+  color: var(--memphis-on-pop);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.tag {
+  font-size: 11px;
+  font-weight: 900;
+  padding: 3px 8px;
+  color: var(--memphis-on-primary);
+  background: var(--memphis-blue);
+  border: 2px solid var(--memphis-ink);
+  border-radius: 999px;
+}
+
+.tag:nth-child(2n) {
+  color: var(--memphis-on-pop);
+  background: var(--memphis-teal);
+}
+
+.active .tag {
+  background: var(--memphis-pink);
+  color: var(--memphis-ink);
+}
+
+.empty {
+  position: relative;
+  z-index: 1;
+  margin: 36px 18px;
+  padding: 28px 18px;
+  text-align: center;
+  color: var(--memphis-ink);
+  background: color-mix(in srgb, var(--memphis-paper) 88%, white);
+  border: var(--memphis-border);
+  border-radius: var(--memphis-radius);
+  box-shadow: var(--memphis-shadow);
+}
+
+.empty p {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.empty small {
+  font-size: 13px;
+  font-weight: 700;
+  color: color-mix(in srgb, var(--memphis-ink) 72%, transparent);
+}
+
+@media (max-width: 860px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    border-right: 0;
+    border-bottom: var(--memphis-border);
+  }
+
+  .sidebar::before,
+  .sidebar::after {
+    display: none;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .list {
+    max-height: 42dvh;
+    overflow-y: auto;
+  }
+}

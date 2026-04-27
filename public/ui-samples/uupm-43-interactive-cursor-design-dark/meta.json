@@ -1,0 +1,20 @@
+{
+  "id": "uupm-43-interactive-cursor-design-dark",
+  "name": "交互式光标（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Interactive Cursor Design 深色样式示例。",
+  "style": [
+    "Interactive Cursor Design",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Creative portfolios",
+    "interactive"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

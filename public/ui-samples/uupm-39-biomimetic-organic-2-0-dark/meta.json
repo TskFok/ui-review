@@ -1,0 +1,21 @@
+{
+  "id": "uupm-39-biomimetic-organic-2-0-dark",
+  "name": "仿生有机 2.0（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Biomimetic / Organic 2.0 深色样式示例。",
+  "style": [
+    "Biomimetic / Organic 2.0",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Sustainability tech",
+    "biotech",
+    "health"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

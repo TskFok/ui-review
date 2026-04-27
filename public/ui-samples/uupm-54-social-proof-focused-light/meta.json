@@ -1,0 +1,20 @@
+{
+  "id": "uupm-54-social-proof-focused-light",
+  "name": "社会证明（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Social Proof-Focused 浅色样式示例。",
+  "style": [
+    "Social Proof-Focused",
+    "landing",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "landing-page",
+  "density": "spacious",
+  "recommendedFor": [
+    "Services",
+    "B2C products"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

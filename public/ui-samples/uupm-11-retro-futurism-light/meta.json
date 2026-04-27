@@ -1,0 +1,21 @@
+{
+  "id": "uupm-11-retro-futurism-light",
+  "name": "复古未来主义（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Retro-Futurism 浅色样式示例。",
+  "style": [
+    "Retro-Futurism",
+    "general",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Gaming",
+    "entertainment",
+    "music platforms"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

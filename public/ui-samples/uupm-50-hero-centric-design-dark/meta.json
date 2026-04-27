@@ -1,0 +1,19 @@
+{
+  "id": "uupm-50-hero-centric-design-dark",
+  "name": "英雄区中心（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Hero-Centric Design 深色样式示例。",
+  "style": [
+    "Hero-Centric Design",
+    "landing",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "landing-page",
+  "density": "spacious",
+  "recommendedFor": [
+    "Products with strong visual identity"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "uupm-65-user-behavior-analytics-dark",
+  "name": "用户行为分析（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 User Behavior Analytics 深色样式示例。",
+  "style": [
+    "User Behavior Analytics",
+    "dashboard",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "UX research",
+    "product analytics"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

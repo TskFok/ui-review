@@ -1,0 +1,11 @@
+{
+  "id": "zero-interface-voice-ai-dark",
+  "name": "Zero Interface Voice AI（深色）",
+  "description": "面向语音助手与 AI 平台的 Zero Interface 深色样式，突出环境感知、低控件负担和实时语音状态。",
+  "style": ["Zero Interface", "Voice Assistant", "AI Platform", "Ambient UI", "Dark Mode"],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "voice-ai-platform",
+  "density": "calm",
+  "recommendedFor": ["语音助手控制台", "AI Agent 协作平台", "车载或会议语音体验", "多模态助手首页"]
+}

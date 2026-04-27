@@ -1,0 +1,21 @@
+{
+  "id": "uupm-27-vaporwave-dark",
+  "name": "蒸汽波（深色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Vaporwave 深色样式示例。",
+  "style": [
+    "Vaporwave",
+    "general",
+    "Available Styles",
+    "Dark"
+  ],
+  "entry": "index.html",
+  "theme": "dark",
+  "industry": "cross-industry",
+  "density": "comfortable",
+  "recommendedFor": [
+    "Music platforms",
+    "gaming",
+    "portfolios"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "uupm-61-real-time-monitoring-light",
+  "name": "实时监控（浅色）",
+  "description": "基于 UI UX Pro Max Available Styles 的 Real-Time Monitoring 浅色样式示例。",
+  "style": [
+    "Real-Time Monitoring",
+    "dashboard",
+    "Available Styles",
+    "Light"
+  ],
+  "entry": "index.html",
+  "theme": "light",
+  "industry": "bi-analytics",
+  "density": "compact",
+  "recommendedFor": [
+    "Operations",
+    "DevOps"
+  ],
+  "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill#available-styles-67"
+}

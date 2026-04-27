@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+*.local
+
+# Vite
+.vite
+
+# TypeScript
+*.tsbuildinfo
+
+# Test / coverage
+coverage
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / local tooling
+.idea
+*.swp
+*.swo
+.cursor/
+
+# Python (e.g. local skill scripts)
+__pycache__/
+*.py[cod]
