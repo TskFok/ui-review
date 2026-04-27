@@ -20,6 +20,9 @@ function uiSamplesStubPlugin(): Plugin {
 }
 
 export default defineConfig({
+  define: {
+    'import.meta.env.BASE_URL': JSON.stringify('/'),
+  },
   plugins: [react(), uiSamplesStubPlugin()],
   test: {
     globals: true,

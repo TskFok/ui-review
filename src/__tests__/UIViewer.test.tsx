@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { UIViewer, buildIframeSrc } from '../components/UIViewer';
+import { UIViewer, buildIframeSrc, buildUiSamplePath } from '../components/UIViewer';
 import type { UIMeta } from '../types/ui';
 
 const item: UIMeta = {
@@ -15,14 +15,32 @@ const item: UIMeta = {
   recommendedFor: ['注册转化'],
 };
 
-describe('buildIframeSrc', () => {
-  it('根据 id 和 entry 拼接路径', () => {
-    expect(buildIframeSrc(item)).toBe('/ui-samples/login-minimal/index.html');
+describe('buildUiSamplePath', () => {
+  it('在根路径下拼接 ui-samples 路径', () => {
+    expect(buildUiSamplePath(item, '/')).toBe('/ui-samples/login-minimal/index.html');
+  });
+
+  it('在子路径下带仓库前缀', () => {
+    expect(buildUiSamplePath(item, '/ui-review/')).toBe(
+      '/ui-review/ui-samples/login-minimal/index.html',
+    );
+  });
+
+  it('补全 base 末尾斜杠', () => {
+    expect(buildUiSamplePath(item, '/ui-review')).toBe(
+      '/ui-review/ui-samples/login-minimal/index.html',
+    );
   });
 
   it('entry 缺省时回退到 index.html', () => {
     const fallback = { ...item, entry: '' };
-    expect(buildIframeSrc(fallback)).toBe('/ui-samples/login-minimal/index.html');
+    expect(buildUiSamplePath(fallback, '/')).toBe('/ui-samples/login-minimal/index.html');
+  });
+});
+
+describe('buildIframeSrc', () => {
+  it('使用 Vite BASE_URL 拼接（测试中 BASE_URL 为 /）', () => {
+    expect(buildIframeSrc(item)).toBe('/ui-samples/login-minimal/index.html');
   });
 });
 

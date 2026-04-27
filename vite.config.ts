@@ -3,6 +3,13 @@ import react from '@vitejs/plugin-react';
 import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
+/**
+ * 本地与 preview 默认 `/`；CI 中根据 GITHUB_REPOSITORY 设置仓库子路径
+ *（例如 user.github.io/repo-name/）。
+ */
+const repo = process.env.GITHUB_REPOSITORY?.split('/')[1];
+const base = process.env.VITE_BASE_PATH ?? (repo ? `/${repo}/` : '/');
+
 const SAMPLES_DIR = resolve(__dirname, 'public/ui-samples');
 const VIRTUAL_ID = 'virtual:ui-samples';
 const RESOLVED_ID = '\0' + VIRTUAL_ID;
@@ -57,6 +64,7 @@ function uiSamplesPlugin(): Plugin {
 }
 
 export default defineConfig({
+  base,
   plugins: [react(), uiSamplesPlugin()],
   server: {
     port: 5173,

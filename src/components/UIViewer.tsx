@@ -6,9 +6,15 @@ interface UIViewerProps {
   item: UIMeta | null;
 }
 
-export function buildIframeSrc(item: UIMeta): string {
+/** 与 Vite `base` 拼接，使 GitHub Pages 子路径下 iframe/链接可访问 public/ui-samples。 */
+export function buildUiSamplePath(item: UIMeta, basePath: string): string {
+  const normalized = basePath.endsWith('/') ? basePath : `${basePath}/`;
   const entry = item.entry || 'index.html';
-  return `/ui-samples/${item.id}/${entry}`;
+  return `${normalized}ui-samples/${item.id}/${entry}`;
+}
+
+export function buildIframeSrc(item: UIMeta): string {
+  return buildUiSamplePath(item, import.meta.env.BASE_URL);
 }
 
 export function UIViewer({ item }: UIViewerProps) {
